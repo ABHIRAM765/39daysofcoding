@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <head>
+    <!--Linking of bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Linking of css style sheet-->
+    <link rel="stylesheet" href="../css/styleforindex.css">
+  </head>
+
+<body>
+  <!--Hedear linked dynamically-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <!--logo-->
+      <a href="index.html" class="navbar-brand">
+      <h1 id="logo">VESTITI</h1>
+      </a>
+      <!--Navbar-->
+      <div class="collapse navbar-collapse" id="navmenu"  >
+              <ul class="navbar-nav " >
+                <li class="nav-item">
+                  <!--Home link-->
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <!--deoupdown links for women category-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Women
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="womens.html">All products</a></li>
+                    <li><a class="dropdown-item" href="wdress.html">Dresses</a></li>
+                    <li><a class="dropdown-item" href="wpants.html">Pants</a></li>
+                    <li><a class="dropdown-item" href="wskirts.html">Skirts</a></li>
+                  </ul>
+                </li>
+                <!--deoupdown links for men category-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Men
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="men.html">All products</a></li>
+                    <li><a class="dropdown-item" href="mshirt.html">Shirts</a></li>
+                    <li><a class="dropdown-item" href="mpant.html">Pants</a></li>
+                    <li><a class="dropdown-item" href="mhoodie.html">Hoodies</a></li>
+                  </ul>
+                </li>
+                <!--kids category link-->
+                <li class="nav-item">
+                  <a class="nav-link" href="kids.html">Kids</a>
+                </li>
+                <!--contact link-->
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--Search bar-->
+            <input type="text" id="search" placeholder="Search anything">
+            <button type="button" class="btn">
+              <i class="fa fa-search"></i>
+            </button>
+            <!--button for login page-->
+            <div class="">
+              <a href="login.html">
+              <button type="button" class="btn1">Login</button>
+            </a>
+            <!--Shopping cart button-->
+              <button type="button" class="btn">
+                <a href="cart.html">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+              </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          
+      </div>
+    </div>
+  </nav>
+  <!--Main content-->
+  <header id="header" class="vh-100" >
+    <div class="container h-100  d-flex align-items-center justify-content-center ">
+      <div class="text-center ">
+        <h2 class="text-capitalize " id="best">Best collections</h2>
+        <h2 class="text-uppercase py-2 fw-bold text-white">New Arivals</h2>
+        <a href="Products.html" id="shopbtn" class="btn mt-4 text-uppercase">Shop now</a>
+      </div>
+    </div>
+  </header>
+  <!--Main content completed-->
+  <!--Featured collection starts-->
+   <section id="collection" class="py-5 col ">
+    <div class="container">
+      <div class="t1 text-center">
+        <h2 class="position-relative d-inline-block">Featured collection</h2>
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid d-flex justify-content-center align-items-center row " >
+    <div id="carouselExample" class="carousel row  ">
+      <div class="carousel-inner col ">
+        <div class="carousel-item active  ">
+          <div class="card">
+            <img src="../images/new/2.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">Red beautiful dress for women</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="card ">
+            <img src="../images/new/3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">Yello color Dress  for women</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="card">
+            <img src="../images/new/4.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">blue and white dress for women</p>
+              <a href="#" class="btn btn-primary">Buy now </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item  ">
+          <div class="card">
+            <img src="../images/new/5.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">beautiful black dress for women</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="card">
+            <img src="../images/new/4.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">blue and white dress for women</p>
+              <a href="#" class="btn btn-primary">Buy now </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="card">
+            <img src="../images/new/3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text"> beautifull yellow dress for women</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="card">
+            <img src="../images/new/4.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dres</h5>
+              <p class="card-text">BLue and white for women</p>
+              <a href="#" class="btn btn-primary">Boy now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--Footer linked dynamically-->
+  <footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <!--links for women product pages-->
+                <ul>
+                    <a href="womens.html" class="heading"><li>Womens</li></a>
+                    <a href="wdress.html"><li>Dresses</li></a>
+                    <a href="wpants.html"><li>pants</li></a>
+                    <a href="wskirts.html"><li>Skirts</li></a>
+                </ul>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+                <!--links for men product pages-->
+                <ul>
+                   <a href="men.html" class="heading"> <li>Men</li></a>
+                    <a href="mshirt.html"><li>Shirts</li></a>
+                    <a href="mpant.html"><li>Pants</li></a>
+                    <a href="mhoodie.html"><li>Hoodies</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <!--links for kids product page-->
+                <ul>
+                    <a href="kids.html" class="heading"><li>Kids</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <!--links for common  pages-->
+                <ul>
+                    <li class="heading">Links</li>
+                    <a href="index.html"><li>Home </li></a>
+                    <a href="login.html"><li>Login</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="cart.html"><li>Cart</li></a>
+                </ul>
+            </div>
+        </div>
+        <!--Copyright for the website-->
+        <div class="row">
+            <hr >
+            <h4 id="copyright">Copyright ©Vestiti 2023-24</h4>
+        </div>
+    </div>
+</footer>
+  <!--linkage of bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!--Linkage of Jquery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Dynamically linking header and footer using javascript-->
+  
+
+
+  <script>
+    var multipleCardCarousel = document.querySelector(
+      "#carouselExample"
+    );
+    if (window.matchMedia("(min-width: 768px)").matches) {
+      var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+        interval: false,
+      });
+      var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+      var cardWidth = $(".carousel-item").width();
+      var scrollPosition = 0;
+      $("#carouselExample .carousel-control-next").on("click", function () {
+        if (scrollPosition < carouselWidth - cardWidth * 4) {
+          scrollPosition += cardWidth;
+          $("#carouselExample .carousel-inner").animate(
+            { scrollLeft: scrollPosition },
+            600
+          );
+        }
+      });
+      $("#carouselExample .carousel-control-prev").on("click", function () {
+        if (scrollPosition > 0) {
+          scrollPosition -= cardWidth;
+          $("#carouselExamples .carousel-inner").animate(
+            { scrollLeft: scrollPosition },
+            600
+          );
+        }
+      });
+    } else {
+      $(multipleCardCarousel).addClass("slide");
+    }
+  </script>
+
+</body>
+
+</html>

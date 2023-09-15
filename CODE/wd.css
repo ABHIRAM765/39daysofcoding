@@ -1,0 +1,67 @@
+/* background image styling */
+#header{
+    background: url(../images/background.jpg)  no-repeat;
+    height: 50vh;
+}
+/* button styling */
+#shopbtn:not(.nav-btns button){
+background-color: white;
+color: black;
+padding: 10px 28px;
+border-radius: 25px;
+border: 1px solid black;
+}
+/* button hover styling */
+#shopbtn:not(.nav-btns button):hover{
+    background-color: #F77946;
+    color: white;
+}
+/* Main line  styling */
+#best{
+    color: #F77946;
+}
+@media(min-width:768px){
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        margin-right: 0;
+        flex: 0 0 50%;
+        display: block;
+
+    }
+}
+@media(min-width:1440px){
+    .carousel-item{
+        margin-right: 0;
+        flex: 0 0 20%;
+        display: block;
+    }
+    .carousel-inner{
+        display: flex;
+}
+}
+.carousel-inner{
+    padding: 1em;
+    width: auto;
+}
+.card{
+    margin: 0 0.5em;
+    
+}
+.carousel-control-prev,.carousel-control-next{
+    background-color: grey;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.carousel-item{
+    padding: 55px;
+}
+
+.card img{
+    height: 200px;
+}
